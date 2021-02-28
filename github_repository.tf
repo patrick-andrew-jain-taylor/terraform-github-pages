@@ -22,7 +22,6 @@ resource "github_repository" "repo" {
     source {
       branch = local.main
     }
-    cname = local.cname
   }
 }
 
