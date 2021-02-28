@@ -35,3 +35,4 @@ override.tf.json
 /.idea/terraform-module-template.iml
 /.idea/vcs.xml
 /.idea/csv-plugin.xml
+/.idea/terraform-github-pages.iml
