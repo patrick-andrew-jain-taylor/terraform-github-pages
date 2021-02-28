@@ -3,11 +3,6 @@ output "github_branch_default" {
   value = github_branch_default.main
 }
 
-output "github_branch_protection_v3" {
-  description = "Github Branch Protection (v3) Resource."
-  value = github_branch_protection_v3.main
-}
-
 output "github_repository" {
   description = "Github Repository Resource."
   value = github_repository.repo

@@ -7,16 +7,17 @@
 
 Terraform module to create Github Repositories that support Github Pages.
 
+NOTE: As of v4.5 of the Github provider, there is no way to enabling enforcement of HTTPS via this module. This needs to be checked manually in the console.
+
 These types of resources are supported:
 
 * [github_branch_default](https://registry.terraform.io/providers/integrations/github/latest/docs/resources/branch_default)
-* [github_branch_protection](https://registry.terraform.io/providers/integrations/github/latest/docs/resources/branch_protection_v3)
 * [github_repository](https://registry.terraform.io/providers/integrations/github/latest/docs/resources/repository)
 * [github_repository_file](https://registry.terraform.io/providers/integrations/github/latest/docs/resources/repository_file)
 
 ## Terraform versions
 
-Terraform 0.14 and newer. Pin module version to `~> v0.1`. Submit pull-requests to `main` branch.
+Terraform 0.14 and newer. Pin module version to `~> v0.2`. Submit pull-requests to `main` branch.
 
 ## Usage
 
@@ -53,7 +54,6 @@ No Modules.
 | Name |
 |------|
 | [github_branch_default](https://registry.terraform.io/providers/integrations/github/latest/docs/resources/branch_default) |
-| [github_branch_protection](https://registry.terraform.io/providers/integrations/github/latest/docs/resources/branch_protection_v3) |
 | [github_repository](https://registry.terraform.io/providers/integrations/github/latest/docs/resources/repository) |
 | [github_repository_file](https://registry.terraform.io/providers/integrations/github/latest/docs/resources/repository_file) |
 
@@ -71,7 +71,6 @@ No Modules.
 | Name | Description |
 |------|-------------|
 | github\_branch\_default | Github Branch Default Resource. |
-| github\_branch\_protection\_v3 | Github Branch Protection (v3) Resource. |
 | github\_repository | Github Repository Resource. |
 | github\_repository\_file | Github Repository CNAME File Resource. |
 | github\_user | Currently authenticated user. |
