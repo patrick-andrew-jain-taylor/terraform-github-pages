@@ -21,7 +21,6 @@ resource "github_repository" "repo" {
   pages {
     source {
       branch = local.main
-      path = "/"
     }
     cname = local.cname
   }
