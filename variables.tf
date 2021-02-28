@@ -1,10 +1,6 @@
 variable "description" {
   description = "Description of repository."
 }
-variable "main_branch" {
-  description = "Main branch for repository (i.e. main)."
-  default = "main"
-}
 variable "repository_name" {
   description = "Name of respository."
 }

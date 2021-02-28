@@ -1,8 +1,3 @@
-output "github_branch" {
-  description = "Github Branch Resource."
-  value = github_branch.main
-}
-
 output "github_branch_default" {
   description = "Github Branch Default Resource."
   value = github_branch_default.main
