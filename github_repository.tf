@@ -16,12 +16,15 @@ resource "github_repository" "repo" {
   license_template = "mit"
   archived = false
   archive_on_destroy = false
-  vulnerability_alerts = true
 
   pages {
     source {
       branch = local.main
     }
+  }
+
+  lifecycle {
+    ignore_changes = [pages["cname"]]
   }
 }
 
