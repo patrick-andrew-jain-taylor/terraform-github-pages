@@ -88,4 +88,4 @@ Module is maintained by [Patrick Jain-Taylor](https://github.com/patrick-andrew-
 
 ## License
 
-MIT Licensed. See [LICENSE](LICENSE) for full details.
+MIT Licensed. See [LICENSE](https://github.com/patrick-andrew-jain-taylor/terraform-github-pages/blob/main/LICENSE) for full details.

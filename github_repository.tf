@@ -2,7 +2,6 @@ resource "github_repository" "repo" {
   name = var.repository_name
   description = var.description
   homepage_url = local.homepage_url
-  private = false
   visibility  = "public"
   has_issues = true
   has_projects = true
